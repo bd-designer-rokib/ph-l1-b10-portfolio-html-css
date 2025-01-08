@@ -56,6 +56,10 @@ nav .nav-right {
   gap: 50px;
 }
 
+nav .nav-right .menu-icon {
+  display: none;
+}
+
 nav .nav-right ul {
   display: flex;
   gap: 50px;
