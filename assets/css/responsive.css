@@ -1,0 +1,179 @@
+@media screen and (max-width: 1420px) {
+  /* * Hero Section */
+  .hero-section .banner-content .dev-img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1320px) {
+  /* * Hero Section */
+  .hero-section .banner-content .banner-title {
+    font-size: 60px;
+  }
+  .hero-section .banner-img img {
+    bottom: -363.5px;
+    right: -712px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  main {
+    padding: 0 16px;
+  }
+  /* * Skill Section */
+  .skill-section .skills {
+    gap: 16px;
+  }
+  /* * Footer Section */
+  .footer-section .footer-left .footer-desc {
+    margin-right: 16px;
+    /* min-width: 425px; */
+  }
+}
+
+@media screen and (max-width: 1050px) {
+  /* * Hero Section */
+  .hero-section {
+    flex-direction: column;
+  }
+
+  .hero-section .banner-content {
+    padding-bottom: 700px;
+  }
+  .hero-section .banner-content .dev-img {
+    position: absolute;
+    top: 190px;
+    left: -160px;
+  }
+  .hero-section .banner-img img {
+    bottom: 0px;
+    right: -465px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  /* * Hero Section */
+  .hero-section .banner-content {
+    padding-bottom: 700px;
+  }
+  .hero-section .banner-img img {
+    bottom: 0px;
+    right: -360px;
+    width: 1080px;
+    background-size: 744px auto;
+    background-position: right 2px bottom;
+  }
+  /* * About Section */
+  .about-section {
+    padding: 130px 32px;
+  }
+  .about-section .about-details {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+  }
+  .about-section .about-details .about-item {
+    margin: 0 auto;
+  }
+  /* * Skill Section */
+  .skill-section .skills {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  /* * Nav Section */
+  nav .nav-right .menu-icon {
+    display: block;
+    font-size: 32px;
+  }
+  nav .nav-right ul {
+    display: none;
+  }
+  nav .nav-right .hire-me-btn {
+    display: none;
+  }
+  /* * About Section */
+  .about-section .about-details {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+  /* * Skill Section */
+  .skill-section .skills {
+    grid-template-columns: repeat(2, 1fr);
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  /* * Resume Section */
+  .resume-section .resume-container {
+    flex-direction: column;
+  }
+  .resume-section .resume-container .resume-column {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .resume-section .resume-container .resume-column:last-of-type {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  /* * Footer Section */
+  .footer-section {
+    grid-template-columns: 1fr;
+  }
+  .footer-section .footer-left,
+  .footer-section .footer-right {
+    margin: 0 auto;
+    max-width: 580px;
+  }
+  .footer-section .footer-right {
+    margin-top: 50px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* * Hero Section */
+  .hero-section .banner-content .banner-btn {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  /* * About Section */
+  .about-section {
+    padding: 130px 24px;
+  }
+
+  /* * Skill Section */
+  .skill-section .skills {
+    grid-template-columns: 1fr;
+  }
+  .skill-section .skills .skill-item {
+    margin: 0 auto;
+    max-width: 290px;
+  }
+  /* * Resume Section */
+  .resume-section .resume-container .resume-column {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  /* * Hero Section */
+  .hero-section .banner-content {
+    padding-bottom: 570px;
+  }
+  .hero-section .banner-img img {
+    bottom: 0px;
+    right: -315px;
+    width: 950px;
+    background-size: 744px auto;
+    background-position: right -50px bottom;
+  }
+  /* * About Section */
+  .about-section .about-details br {
+    display: initial;
+  }
+  .about-section .about-details .about-item .item-desc:nth-child(2) {
+    text-align: center;
+  }
+}

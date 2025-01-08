@@ -23,6 +23,10 @@ header {
   overflow: hidden;
 }
 
+main {
+  padding: 0 24px;
+}
+
 /* * Nav Section */
 
 nav {
@@ -31,6 +35,7 @@ nav {
   align-items: center;
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 nav .logo {
@@ -85,6 +90,7 @@ nav .nav-right .hire-me-btn button {
   align-items: center;
   max-width: 1140px;
   margin: 0 auto;
+  padding: 0 16px;
 }
 
 .hero-section .banner-content {
@@ -173,6 +179,7 @@ nav .nav-right .hire-me-btn button {
 .hero-section .banner-img {
   position: relative;
   height: 100%;
+  overflow: visible;
 }
 
 .hero-section .banner-img img {
@@ -182,8 +189,8 @@ nav .nav-right .hire-me-btn button {
   right: -850px;
   background-image: url("../images/header-bg.svg");
   background-repeat: no-repeat;
-  background-size: 1000px auto;
-  background-position: right -82px bottom;
+  background-size: 920px auto;
+  background-position: right 0px bottom;
 }
 
 /* * About Section */
@@ -191,7 +198,7 @@ nav .nav-right .hire-me-btn button {
 .about-section {
   max-width: 1140px;
   margin: 130px auto;
-  padding: 130px 155px;
+  padding: 130px 70px;
   background-color: var(--shade-3);
 }
 
@@ -217,7 +224,10 @@ nav .nav-right .hire-me-btn button {
 .about-section .about-details {
   display: flex;
   justify-content: space-between;
-  /* gap: 30px; */
+}
+
+.about-section .about-details br {
+  display: none;
 }
 
 .about-section .about-details .about-item .item-title {
@@ -265,8 +275,8 @@ nav .nav-right .hire-me-btn button {
 }
 
 .skill-section .skills {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
   gap: 24px;
 }
 
@@ -314,7 +324,7 @@ nav .nav-right .hire-me-btn button {
 .resume-section .resume-container {
   display: flex;
   gap: 24px;
-  margin-top: 110px;
+  margin-top: 60px;
   margin-bottom: 50px;
 }
 
@@ -393,9 +403,9 @@ footer {
 .footer-section {
   max-width: 1140px;
   margin: 0 auto;
-  padding: 130px 0;
-  display: flex;
-  justify-content: space-between;
+  padding: 100px 16px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .footer-section .footer-left .footer-title,
@@ -423,7 +433,7 @@ footer {
   gap: 24px;
 }
 
-.footer-section .footer-right{
+.footer-section .footer-right {
   max-width: 461px;
 }
 
